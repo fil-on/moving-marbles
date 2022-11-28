@@ -5,3 +5,5 @@
 - built with html, css, javascript and p5js
 
 - design credits to : The Coding Train ['Steering Behaviors'] : https://www.youtube.com/watch?v=4hA7G3gup-4
+
+- deployed on Netlify: https://fil-moving-marbles.netlify.app/
