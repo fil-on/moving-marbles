@@ -6,6 +6,7 @@ function Vehicle(x, y) {
   this.r = 8;
   this.maxspeed = 10;
   this.maxforce = 1;
+  this.color = [Math.random() * 256, Math.random() * 256, Math.random() * 256];
 }
 
 Vehicle.prototype.behaviors = function () {
@@ -31,7 +32,7 @@ Vehicle.prototype.update = function () {
 };
 
 Vehicle.prototype.show = function () {
-  stroke(255);
+  stroke(...this.color);
   strokeWeight(10);
   point(this.pos.x, this.pos.y);
 };
